@@ -53,5 +53,5 @@ def preprocess_image(image, size):
     image = (image - 0.5) / 0.5
     return image
 
-if __name__ == '_main_':
-    app.run()
+if __name__ == '__main__':
+    app.run(debug=True)
